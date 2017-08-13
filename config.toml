@@ -19,7 +19,7 @@ canonifyurls = true
 
 [author]
   name = "Nikolay Stoitsev"
-  bio = "Super bio with markdown support **COOL**"
+  bio = "Building scalable systems. Knows both the CAP theorem and how to position things with CSS."
   job = "Software Engineer"
   location = "Bulgaria"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
