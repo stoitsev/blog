@@ -7,6 +7,10 @@ tags:
 - javascript
 keywords:
 - javascript
+- oop
+- inheritance
+- objects
+- class
 ---
 
 Very often, while working on some JavaScript app, you will try to build a class hierarchy to encapsulate code in reusable and separate components. As you know, there are no native mechanisms in nowadays JavaScript, for creating classes and supporting inheritance. Usually people use some library that allows then to do so. Even when we use a popular battle-tested framework there are things that can go wrong. In the following post I am going to show you one of them.
