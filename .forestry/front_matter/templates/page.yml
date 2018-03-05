@@ -1,0 +1,58 @@
+---
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: text
+  hidden: false
+  default: 
+- name: categories
+  label: Categories
+  type: tag_list
+  hidden: false
+  default:
+  - category
+  - subcategory
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default:
+  - tag1
+  - tag2
+- name: keywords
+  label: Keywords
+  type: list
+  hidden: false
+  default:
+  - tech
+- name: comments
+  label: Comments
+  type: boolean
+  hidden: false
+  default: false
+- name: showDate
+  label: Showdate
+  type: boolean
+  hidden: false
+  default: false
+- name: showSocial
+  label: Showsocial
+  type: boolean
+  hidden: false
+  default: false
+- name: showTags
+  label: Showtags
+  type: boolean
+  hidden: false
+  default: false
+- name: showPagination
+  label: Showpagination
+  type: boolean
+  hidden: false
+  default: false
